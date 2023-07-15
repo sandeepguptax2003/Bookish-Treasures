@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-//schema for the book collection
+// Schema for the book collection
 const bookSchema = new mongoose.Schema({
   title: {
     type: String,
@@ -29,7 +29,7 @@ const bookSchema = new mongoose.Schema({
   createdAt: { type: Date, default: Date.now },
 });
 
-//model for the book collection
+// model for the book collection
 const bookModel = mongoose.model("book", bookSchema);
 
 module.exports = bookModel;

@@ -17,7 +17,7 @@ const server = app.listen(port, () => {
   console.log(`Server Is Running on http://localhost:${port}`);
 });
 
-// Unhandled promise Rejection
+// Unhandled Promise Rejection
 process.on("unhandledRejection", (err) => {
   console.log(`Error: ${err.message}`);
   console.log(`Shutting Down The Server Due To Unhandled Promise Rejection`);

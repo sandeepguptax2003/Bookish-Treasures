@@ -13,12 +13,12 @@ app.use(
 
 app.use(express.json());
 
-//Route for accessing all books
+// Route for accessing all books
 app.get("/", (req, res) => {
   res.send("Access all books /book");
 });
 
-//All Routes
+// All Routes
 app.use("/user", userRoutes);
 app.use("/book", bookRoutes);
 
