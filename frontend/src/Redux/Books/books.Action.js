@@ -14,7 +14,7 @@ import {
   GET_SEARCH_BOOKS_SUCCESS,
 } from "./books.ActionType";
 
-const baseURL = "https://bookish-treasures-backend.vercel.app/book";//backend deployed link use here
+const baseURL = "https://bookish-treasures-backend.vercel.app/book";
 
 export const getBooks = () => async (dispatch) => {
   dispatch({ type: GET_BOOKS_LOADING });

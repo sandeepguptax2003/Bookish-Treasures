@@ -138,7 +138,7 @@ import {
             <Button
               isLoading={loading}
               loadingText="Submitting"
-              width="100px"
+              width="150px"
               margin={"127px"}
               p={4}
               borderRadius="lg"

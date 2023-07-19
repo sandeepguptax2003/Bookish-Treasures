@@ -59,14 +59,11 @@ export const bookReducer = (state = productInitalState, { type, payload }) => {
       };
     }
     case GET_SEARCH_BOOKS_SUCCESS: {
-      // Filter the allBooks array based on the search query
       const searchResult = state.allBooks.filter((book) => {
-        // Convert the book title, author, and description to lowercase for case-insensitive search
         const lowercaseTitle = book.title.toLowerCase();
         const lowercaseAuthor = book.author.toLowerCase();
         const lowercaseDescription = book.description.toLowerCase();
 
-        // Check if any of the book properties match the query
         return (
           lowercaseTitle.includes(payload) ||
           lowercaseAuthor.includes(payload) ||
