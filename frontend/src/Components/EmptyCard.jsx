@@ -1,5 +1,5 @@
 import { Button } from "@chakra-ui/react";
-import { Box, Center, Heading, Text, Stack, Image } from "@chakra-ui/react";
+import { Box, Center, Heading, Stack, Image } from "@chakra-ui/react";
 import { Link } from "react-router-dom";
 
 const EmptyCard = ({ name }) => {
