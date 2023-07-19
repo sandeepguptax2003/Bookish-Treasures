@@ -11,7 +11,7 @@ const OrderCard = ({ item }) => {
     dispatch(removeMoveOrderItem(id));
     toast({
       title: "Cancle Success.",
-      description: `Order Item id: ${id}.`,
+      description: `Order Cancelled Successfully`,
       status: "success",
       duration: 2000,
       isClosable: true,
@@ -41,13 +41,14 @@ const OrderCard = ({ item }) => {
       
       <Button
        bg="red.500"
-       width={"100px"}
+       width={"130px"}
        borderWidth="1px"
        border={"1px solid white"}
        size="md"
+       color="white"
        variant="outline"
        _hover={"black"}
-        onClick={() => handleCancleOrder(item._id)}>Delete</Button>
+        onClick={() => handleCancleOrder(item._id)}>Cancel Order</Button>
     </Grid>
   );
 };
