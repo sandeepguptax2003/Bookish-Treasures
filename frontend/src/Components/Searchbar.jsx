@@ -51,13 +51,13 @@ export const Searchbar = () => {
               <Input
                 type="search"
                 onChange={(e) => setQuery(e.target.value)}
-                placeholder="Search for a Movie..."
+                placeholder="Search for a Book..."
               />
               <InputRightElement
                 children={
                   <IconButton
                     aria-label="Search books"
-                    bg="black"
+                    bg="white"
                     onClick={() => dispatch(getSearchBooks(query))}
                     icon={<SearchIcon />}
                   />
