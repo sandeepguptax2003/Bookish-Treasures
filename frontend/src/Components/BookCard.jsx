@@ -51,7 +51,7 @@ import {
       <Box
         borderWidth="4px"
         borderRadius="2g"
-        background={"black"}
+        background={"#043C59"}
         textColor={"white"}
         p={4}
         className="border border-gray-300 rounded-lg overflow-hidden p-4"
@@ -89,9 +89,9 @@ import {
           width="full"
           p={4}
           borderRadius="lg"
-          colorScheme="teal"
+          colorScheme="white"
           _hover={{
-            bg: "teal.300",
+            bg: "#E90176",
             color: "white",
           }}
           variant="outline"

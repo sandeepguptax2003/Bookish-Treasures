@@ -60,7 +60,7 @@ import {
     }
     if (loading) return <Loading />;
     return (
-      <Box mt={"80px"} border={"3px solid black"} background={"black"} color={"white"} p={4} justifyContent={"center"} alignItems={"center"}>
+      <Box mt={"80px"} border={"1px solid black"} background={"#F76D07"} color={"white"} p={4} justifyContent={"center"} alignItems={"center"}>
         <Stack spacing={4} direction={{ base: "column", md: "row" }}>
           <Image
             src={singleBook.image}
@@ -88,12 +88,12 @@ import {
                 isLoading={cartLoading}
                 isDisabled={cartData.find((item) => item._id === newItem._id)}
                 loadingText="Add to Cart"
-                width="full"
+                width="170px"
                 p={4}
                 borderRadius="lg"
-                colorScheme="teal"
+                colorScheme="=black"
                 _hover={{
-                  bg: "teal.300",
+                  bg: "#E90176",
                   color: "white",
                 }}
                 variant="outline"

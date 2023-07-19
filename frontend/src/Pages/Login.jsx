@@ -85,7 +85,7 @@ import {
         display="flex"
         alignItems="center"
         justifyContent="center"
-        background={"black"}
+        background={"#36373B"}
         color={"white"}
       >
         <VStack
@@ -101,7 +101,7 @@ import {
             fontSize="20px"
             mb="20px"
           >
-            LOG-IN
+            LOG IN
           </Heading>
           <FormControl p={2}>
             <Input
@@ -123,7 +123,7 @@ import {
               onChange={handleChange}
               onKeyPress={handleKeyPress}
               type="password"
-              placeholder="Enter password"
+              placeholder="Enter Password"
               borderRadius="lg"
               focusBorderColor="teal.100"
               required
@@ -134,12 +134,14 @@ import {
             <Button
               isLoading={loading}
               loadingText="Submitting"
-              width="full"
+              width="100px"
+              marginLeft={"127px"}
               p={4}
               borderRadius="lg"
-              colorScheme="teal"
+              colorScheme="#FFD210"
+              color={"#FDCE23"}
               _hover={{
-                bg: "teal.300",
+                bg: "#CE9FDE",
                 color: "white",
               }}
               variant="outline"
@@ -151,12 +153,14 @@ import {
           </FormControl>
           <FormControl>
             <Button
-              width="full"
+              width="100px"
               p={4}
               borderRadius="lg"
-              colorScheme="teal"
+              colorScheme="#FFD210"
+              color={"#FDCE23"}
+              marginLeft={"127px"}
               _hover={{
-                bg: "teal.300",
+                bg: "#CE9FDE",
                 color: "white",
               }}
               variant="outline"

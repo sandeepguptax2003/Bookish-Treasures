@@ -22,7 +22,7 @@ import {
       dispatch(removeItemFromCart(id));
       toast({
         title: "Remove Success.",
-        description: `Remove Item id: ${id} from Cart.`,
+        description: `Book Removed`,
         status: "success",
         duration: 2000,
         isClosable: true,
@@ -47,7 +47,7 @@ import {
         alignItems="center"
         justifyContent="space-between"
         p={4}
-        background={"black"}
+        background={"#4E4A47"}
         textColor={"white"}
         width="full"
         gap={2}
@@ -112,6 +112,7 @@ import {
             border={"1px solid white"}
             size="md"
             variant="outline"
+            color="white"
             _hover={"black"}
             onClick={() => handleRemove(cart._id)}>Delete</Button>
         </GridItem>

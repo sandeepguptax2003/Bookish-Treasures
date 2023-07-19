@@ -44,8 +44,7 @@ import {
     return (
       <Container
         px={4}
-        border={"2px solid blue"}
-        background={"#5B3D9F"}
+        background={"#4AA6E4"}
         maxW={"100%"}
         position="fixed"
         color="white"
@@ -85,7 +84,7 @@ import {
                 </NavLink>
               ))}
               {isAuthenticated || token ? (
-                <Button onClick={handleLogout} color={"black"}>LogOut</Button>
+                <Button onClick={handleLogout} color={"black"}>Log Out</Button>
               ) : null}
             </HStack>
           </HStack>

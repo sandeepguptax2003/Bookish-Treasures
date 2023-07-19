@@ -76,7 +76,7 @@ import {
         display="flex"
         alignItems="center"
         justifyContent="center"
-        background={"black"}
+        background={"#36373B"}
         color={"white"}
       >
         <VStack
@@ -138,19 +138,21 @@ import {
             <Button
               isLoading={loading}
               loadingText="Submitting"
-              width="full"
+              width="100px"
+              margin={"127px"}
               p={4}
               borderRadius="lg"
-              colorScheme="teal"
+              colorScheme="#FFD210"
+              color={"#FDCE23"}
               _hover={{
-                bg: "teal.300",
+                bg: "#CE9FDE",
                 color: "white",
               }}
               variant="outline"
               mt={4}
               onClick={handleSignUp}
             >
-              SIGN-IN BUTTON
+              CONFIRM
             </Button>
           </FormControl>
         </VStack>

@@ -79,7 +79,7 @@ const CheckOut = () => {
     dispatch(addOrderItems(cartData));
     toast({
       title: "Order Success.",
-      description: `Order Amount $:- ${total}`,
+      description: `Your Total Amount :-$${total}`,
       status: "success",
       duration: 2000,
       isClosable: true,
@@ -164,21 +164,20 @@ const CheckOut = () => {
   }
 
   return (
-    <Box p={4} mt={"50px"} background={"#9F3194"} color={"white"}  >
-      <Heading color={"black"} textAlign={"center"} >
-        Checkout
+    <Box p={4} mt={"50px"} background={"#A20A42"} color={"white"}  >
+      <Heading color={"white"} textAlign={"center"} >
+        Checkout Here
       </Heading>
 
       <Stack spacing={4} >
         <Heading as="h2" size="md" mb={2}>
           Delivery Address
         </Heading>
-        <Box color={"black"}>
+        <Box color={"white"}>
           <AddIcon /> {InitialFocus()}
         </Box>
         <Grid
           templateColumns="repeat(3, 1fr)"
-          alignItems=""
           background="black"
           color="white"
            display={"flex"}
@@ -259,7 +258,7 @@ const CheckOut = () => {
           </Stack>
         </FormControl>
 
-        <Button colorScheme="teal" onClick={handleBuyNow}>
+        <Button colorScheme="teal" width={200} margin={"auto"} onClick={handleBuyNow}>
           Buy Now
         </Button>
       </Stack>

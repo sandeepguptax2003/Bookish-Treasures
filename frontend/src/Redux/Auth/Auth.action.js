@@ -8,7 +8,7 @@ import {
   SIGN_UP_SUCCESS,
 } from "./Auth.actionType";
 
-const baseURL = "/user";
+const baseURL = "https://bookish-treasures-backend.vercel.app/user"; //backend deployed link use here
 
 //sign in
 export const signUp = (creds) => async (dispatch) => {
