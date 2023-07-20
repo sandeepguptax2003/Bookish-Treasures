@@ -39,11 +39,11 @@ The app is deployed on two platforms:
 
 **Vercel for Backend**
 - Backend of the app is deployed on Vercel for seamless server-side functionality.
-- [Link to Vercel Backend](bookish-treasures-backend.vercel.app/)
+- [Link to Vercel Backend](https://bookish-treasures-backend.vercel.app/)
 
 **Netlify for Frontend**
 - Frontend of the app is hosted on Netlify for an optimized user experience.
-- [Link to Netlify Frontend](bookish-treasure.netlify.app/)
+- [Link to Netlify Frontend](https://bookish-treasure.netlify.app/)
 
 ## How to Get Started
 
